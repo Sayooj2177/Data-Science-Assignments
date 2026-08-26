@@ -1,7 +1,9 @@
 .venv/
 .agents/
 .claude/
+.idea/
 __pycache__/
 *.pyc
+.ipynb_checkpoints/
+.DS_Store
 diabetes.csv
-.idea/
