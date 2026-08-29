@@ -1,0 +1,8 @@
+PatientID,Name,Department,Doctor,BillAmount,InsuranceCovered,FinalAmount
+101,Alice,Cardiology,Dr. Smith,5000.0,2000,3000
+102,Bob,Neurology,Dr. John,6233.333333333333,1500,3500
+103,Charlie,Orthopedics,Dr. Lee,7500.0,2500,5000
+104,David,Cardiology,Dr. Smith,6200.0,3000,3200
+105,Eva,Dermatology,Dr. Rose,6233.333333333333,1000,4000
+106,Frank,Neurology,Dr. John,6800.0,2200,4600
+107,Grace,Cardiology,Dr. Smith,7200.0,2800,4400
