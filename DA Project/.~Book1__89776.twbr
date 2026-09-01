@@ -1,0 +1,3148 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20262.26.0708.1337                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='7438ce8425f937a2c626047b6bf3369c94546d60baa92aca7c386062213e5ee2' _.fcp.WorkbookFingerprinting.true...creator-author-id='7438ce8425f937a2c626047b6bf3369c94546d60baa92aca7c386062213e5ee2' _.fcp.WorkbookFingerprinting.true...creator-license-type='public' _.fcp.WorkbookFingerprinting.true...creator-machine-id='7438ce8425f937a2c626047b6bf3369c94546d60baa92aca7c386062213e5ee2' _.fcp.WorkbookFingerprinting.true...license-type='public' _.fcp.WorkbookFingerprinting.true...machine-id='7438ce8425f937a2c626047b6bf3369c94546d60baa92aca7c386062213e5ee2' original-version='18.1' source-build='2026.2.1 (20262.26.0708.1337)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Fact_Orders (DA DATA)' inline='true' name='federated.0aflbum1iy372514lajhq0u5pqio' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='DA DATA' name='excel-direct.0zxl7r4180o0cx157qy6r1a68x81'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/sayoojchandran/Desktop/DA Project/DA DATA.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0zxl7r4180o0cx157qy6r1a68x81' name='Fact_Orders' table='[Fact_Orders$]' type='table'>
+          <columns gridOrigin='A1:AX10001:no:A1:AX10001:0' header='yes' outcome='6'>
+            <column datatype='string' name='Order_ID' ordinal='0' />
+            <column datatype='string' name='Customer_ID' ordinal='1' />
+            <column datatype='string' name='Product_ID' ordinal='2' />
+            <column datatype='string' name='Supplier_ID' ordinal='3' />
+            <column datatype='string' name='Warehouse_ID' ordinal='4' />
+            <column datatype='date' name='Order_Date' ordinal='5' />
+            <column datatype='date' name='Ship_Date' ordinal='6' />
+            <column datatype='date' name='Promised_Delivery_Date' ordinal='7' />
+            <column datatype='date' name='Actual_Delivery_Date' ordinal='8' />
+            <column datatype='string' name='Ship_Mode' ordinal='9' />
+            <column datatype='string' name='Carrier' ordinal='10' />
+            <column datatype='integer' name='Order_Quantity' ordinal='11' />
+            <column datatype='integer' name='Shipped_Quantity' ordinal='12' />
+            <column datatype='real' name='Unit_Price' ordinal='13' />
+            <column datatype='real' name='Unit_Cost' ordinal='14' />
+            <column datatype='real' name='Revenue' ordinal='15' />
+            <column datatype='real' name='COGS' ordinal='16' />
+            <column datatype='real' name='Shipping_Cost' ordinal='17' />
+            <column datatype='integer' name='Processing_Days' ordinal='18' />
+            <column datatype='integer' name='Transit_Days' ordinal='19' />
+            <column datatype='integer' name='Delay_Days' ordinal='20' />
+            <column datatype='string' name='Delivery_Status' ordinal='21' />
+            <column datatype='real' name='Fill_Rate_Pct' ordinal='22' />
+            <column datatype='string' name='Customer Region' ordinal='23' />
+            <column datatype='string' name='Customer Country' ordinal='24' />
+            <column datatype='string' name='Customer City' ordinal='25' />
+            <column datatype='string' name='Customer_Segment' ordinal='26' />
+            <column datatype='string' name='Product_Name' ordinal='27' />
+            <column datatype='string' name='Category' ordinal='28' />
+            <column datatype='string' name='Sub_Category' ordinal='29' />
+            <column datatype='real' name='Unit_Cost.1' ordinal='30' />
+            <column datatype='real' name='Unit_Price.1' ordinal='31' />
+            <column datatype='string' name='Primary_Supplier_ID' ordinal='32' />
+            <column datatype='string' name='Supplier_Name' ordinal='33' />
+            <column datatype='string' name='Supplier_Country' ordinal='34' />
+            <column datatype='string' name='Supplier_City' ordinal='35' />
+            <column datatype='string' name='Supplier_Tier' ordinal='36' />
+            <column datatype='real' name='Reliability_Score' ordinal='37' />
+            <column datatype='string' name='Warehouse_City' ordinal='38' />
+            <column datatype='string' name='Warehouse_Country' ordinal='39' />
+            <column datatype='string' name='Warehouse_Region' ordinal='40' />
+            <column datatype='integer' name='Capacity_Units' ordinal='41' />
+            <column datatype='integer' name='Snapshot_Date' ordinal='42' />
+            <column datatype='integer' name='Stock_On_Hand' ordinal='43' />
+            <column datatype='integer' name='Reorder_Level' ordinal='44' />
+            <column datatype='integer' name='Safety_Stock' ordinal='45' />
+            <column datatype='integer' name='Units_Received' ordinal='46' />
+            <column datatype='integer' name='Units_Shipped' ordinal='47' />
+            <column datatype='real' name='Days_Of_Supply' ordinal='48' />
+            <column datatype='integer' name='Stockout_Flag' ordinal='49' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AX10001:no:A1:AX10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order_ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Order_ID]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Order_ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer_ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Customer_ID]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Customer_ID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Product_ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Product_ID]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Product_ID</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Supplier_ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Supplier_ID]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Supplier_ID</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Warehouse_ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Warehouse_ID]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Warehouse_ID</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order_Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Order_Date]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Order_Date</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ship_Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Ship_Date]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Ship_Date</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Promised_Delivery_Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Promised_Delivery_Date]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Promised_Delivery_Date</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Actual_Delivery_Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Actual_Delivery_Date]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Actual_Delivery_Date</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ship_Mode</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Ship_Mode]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Ship_Mode</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Carrier</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Carrier]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Carrier</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order_Quantity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Order_Quantity]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Order_Quantity</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shipped_Quantity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Shipped_Quantity]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Shipped_Quantity</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unit_Price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Unit_Price]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Unit_Price</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unit_Cost</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Unit_Cost]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Unit_Cost</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Revenue]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Revenue</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COGS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[COGS]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>COGS</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shipping_Cost</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Shipping_Cost]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Shipping_Cost</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Processing_Days</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Processing_Days]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Processing_Days</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Transit_Days</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Transit_Days]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Transit_Days</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Delay_Days</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Delay_Days]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Delay_Days</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Delivery_Status</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Delivery_Status]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Delivery_Status</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fill_Rate_Pct</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Fill_Rate_Pct]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Fill_Rate_Pct</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer Region</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Customer Region]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Customer Region</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Customer Country]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Customer Country</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer City</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Customer City]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Customer City</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer_Segment</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Customer_Segment]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Customer_Segment</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Product_Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Product_Name]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Product_Name</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Category]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Category</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sub_Category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sub_Category]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Sub_Category</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unit_Cost.1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Unit_Cost.1]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Unit_Cost.1</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unit_Price.1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Unit_Price.1]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Unit_Price.1</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Primary_Supplier_ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Primary_Supplier_ID]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Primary_Supplier_ID</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Supplier_Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Supplier_Name]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Supplier_Name</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Supplier_Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Supplier_Country]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Supplier_Country</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Supplier_City</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Supplier_City]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Supplier_City</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Supplier_Tier</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Supplier_Tier]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Supplier_Tier</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reliability_Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Reliability_Score]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Reliability_Score</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Warehouse_City</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Warehouse_City]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Warehouse_City</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Warehouse_Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Warehouse_Country]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Warehouse_Country</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Warehouse_Region</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Warehouse_Region]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Warehouse_Region</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Capacity_Units</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Capacity_Units]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Capacity_Units</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Snapshot_Date</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Snapshot_Date]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Snapshot_Date</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Stock_On_Hand</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Stock_On_Hand]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Stock_On_Hand</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reorder_Level</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Reorder_Level]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Reorder_Level</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Safety_Stock</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Safety_Stock]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Safety_Stock</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Units_Received</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Units_Received]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Units_Received</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Units_Shipped</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Units_Shipped]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Units_Shipped</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Days_Of_Supply</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Days_Of_Supply]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Days_Of_Supply</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Stockout_Flag</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Stockout_Flag]</local-name>
+            <parent-name>[Fact_Orders]</parent-name>
+            <remote-alias>Stockout_Flag</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Actual Delivery Date' datatype='date' name='[Actual_Delivery_Date]' role='dimension' type='ordinal' />
+      <column caption='Cogs' datatype='real' name='[COGS]' role='measure' type='quantitative' />
+      <column caption='Gross Profit' datatype='real' default-format='c&quot;$&quot;#,##0,,.00M;-&quot;$&quot;#,##0,,.00M' name='[Calculation_0655337271414784]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Revenue]) - SUM([COGS])' />
+      </column>
+      <column caption='Gross Margin %' datatype='real' default-format='p0.00%' name='[Calculation_0655337272049665]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='(SUM([Revenue]) - SUM([COGS])) / SUM([Revenue])' />
+      </column>
+      <column caption='Stockout Rate %' datatype='real' default-format='p0.00%' name='[Calculation_0655337327128578]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([Stockout_Flag])' />
+      </column>
+      <column caption='On-Time Flag' datatype='integer' name='[Calculation_0655337328111619]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Actual_Delivery_Date] &lt;= [Promised_Delivery_Date] THEN&#10;    1&#10;ELSE&#10;    0&#10;END' />
+      </column>
+      <column caption='On-Time Delivery %' datatype='real' default-format='p0.00%' name='[Calculation_0655337328463876]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([Calculation_0655337328111619])' />
+      </column>
+      <column caption='One' datatype='integer' name='[Calculation_0915578019127296]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Capacity Units' datatype='integer' name='[Capacity_Units]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Customer City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[Customer Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column aggregate-role-from='[Customer City]' datatype='string' name='[Customer Region]' role='dimension' type='nominal' />
+      <column caption='Customer ID' datatype='string' name='[Customer_ID]' role='dimension' type='nominal' />
+      <column caption='Customer Segment' datatype='string' name='[Customer_Segment]' role='dimension' type='nominal' />
+      <column caption='Days Of Supply' datatype='real' name='[Days_Of_Supply]' role='measure' type='quantitative' />
+      <column caption='Delay Days' datatype='integer' name='[Delay_Days]' role='measure' type='quantitative' />
+      <column caption='Delivery Status' datatype='string' name='[Delivery_Status]' role='dimension' type='nominal' />
+      <column caption='Fill Rate Pct' datatype='real' default-format='p0.00%' name='[Fill_Rate_Pct]' role='measure' type='quantitative' />
+      <column caption='Order Date' datatype='date' name='[Order_Date]' role='dimension' type='ordinal' />
+      <column caption='Order ID' datatype='string' name='[Order_ID]' role='dimension' type='nominal' />
+      <column caption='Order Quantity' datatype='integer' name='[Order_Quantity]' role='measure' type='quantitative' />
+      <column caption='Primary Supplier ID' datatype='string' name='[Primary_Supplier_ID]' role='dimension' type='nominal' />
+      <column caption='Processing Days' datatype='integer' name='[Processing_Days]' role='measure' type='quantitative' />
+      <column caption='Product ID' datatype='string' name='[Product_ID]' role='dimension' type='nominal' />
+      <column caption='Product Name' datatype='string' name='[Product_Name]' role='dimension' type='nominal' />
+      <column caption='Promised Delivery Date' datatype='date' name='[Promised_Delivery_Date]' role='dimension' type='ordinal' />
+      <column caption='Reliability Score' datatype='real' name='[Reliability_Score]' role='measure' type='quantitative' />
+      <column caption='Reorder Level' datatype='integer' name='[Reorder_Level]' role='measure' type='quantitative' />
+      <column datatype='real' default-format='c&quot;$&quot;#,##0,,.00M;-&quot;$&quot;#,##0,,.00M' name='[Revenue]' role='measure' type='quantitative' />
+      <column caption='Safety Stock' datatype='integer' name='[Safety_Stock]' role='measure' type='quantitative' />
+      <column caption='Ship Date' datatype='date' name='[Ship_Date]' role='dimension' type='ordinal' />
+      <column caption='Ship Mode' datatype='string' name='[Ship_Mode]' role='dimension' type='nominal' />
+      <column caption='Shipped Quantity' datatype='integer' name='[Shipped_Quantity]' role='measure' type='quantitative' />
+      <column caption='Shipping Cost' datatype='real' name='[Shipping_Cost]' role='measure' type='quantitative' />
+      <column caption='Snapshot Date' datatype='integer' name='[Snapshot_Date]' role='measure' type='quantitative' />
+      <column caption='Stock On Hand' datatype='integer' name='[Stock_On_Hand]' role='measure' type='quantitative' />
+      <column caption='Stockout Flag' datatype='integer' name='[Stockout_Flag]' role='measure' type='quantitative' />
+      <column caption='Sub Category' datatype='string' name='[Sub_Category]' role='dimension' type='nominal' />
+      <column caption='Supplier City' datatype='string' name='[Supplier_City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Supplier Country' datatype='string' name='[Supplier_Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Supplier ID' datatype='string' name='[Supplier_ID]' role='dimension' type='nominal' />
+      <column caption='Supplier Name' datatype='string' name='[Supplier_Name]' role='dimension' type='nominal' />
+      <column caption='Supplier Tier' datatype='string' name='[Supplier_Tier]' role='dimension' type='nominal' />
+      <column caption='Transit Days' datatype='integer' name='[Transit_Days]' role='measure' type='quantitative' />
+      <column caption='Unit Cost.1' datatype='real' name='[Unit_Cost.1]' role='measure' type='quantitative' />
+      <column caption='Unit Cost' datatype='real' name='[Unit_Cost]' role='measure' type='quantitative' />
+      <column caption='Unit Price.1' datatype='real' name='[Unit_Price.1]' role='measure' type='quantitative' />
+      <column caption='Unit Price' datatype='real' name='[Unit_Price]' role='measure' type='quantitative' />
+      <column caption='Units Received' datatype='integer' name='[Units_Received]' role='measure' type='quantitative' />
+      <column caption='Units Shipped' datatype='integer' name='[Units_Shipped]' role='measure' type='quantitative' />
+      <column caption='Warehouse City' datatype='string' name='[Warehouse_City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Warehouse Country' datatype='string' name='[Warehouse_Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Warehouse ID' datatype='string' name='[Warehouse_ID]' role='dimension' type='nominal' />
+      <column caption='Warehouse Region' datatype='string' name='[Warehouse_Region]' role='dimension' type='nominal' />
+      <column caption='Fact_Orders' datatype='table' name='[__tableau_internal_object_id__].[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]' role='measure' type='quantitative' />
+      <column-instance column='[Delivery_Status]' derivation='None' name='[none:Delivery_Status:nk]' pivot='key' type='nominal' />
+      <group caption='Action (Customer Region)' hidden='true' name='[Action (Customer Region)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Customer Region]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Warehouse Country)' hidden='true' name='[Action (Warehouse Country)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Warehouse_Country]' />
+        </groupfilter>
+      </group>
+      <drill-paths>
+        <drill-path name='Customer Region, Customer City'>
+          <field>[Customer Region]</field>
+          <field>[Customer City]</field>
+        </drill-path>
+      </drill-paths>
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='Data/tableau-temp/#TableauTemp_0497zu500x25ey1786mby0uny26v.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='07/29/2026 05:37:49 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Order_ID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Order_ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Order_ID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>71011</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Customer_ID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Customer_ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Customer_ID</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2832</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Product_ID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Product_ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Product_ID</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>92</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Supplier_ID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Supplier_ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Supplier_ID</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>32</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Warehouse_ID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Warehouse_ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Warehouse_ID</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Order_Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Order_Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Order_Date</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>1051</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Ship_Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Ship_Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Ship_Date</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>1017</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Promised_Delivery_Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Promised_Delivery_Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Promised_Delivery_Date</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>1170</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Actual_Delivery_Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Actual_Delivery_Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Actual_Delivery_Date</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>1162</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Ship_Mode</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Ship_Mode]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Ship_Mode</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Carrier</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Carrier]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Carrier</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Order_Quantity</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Order_Quantity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Order_Quantity</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1974</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Shipped_Quantity</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Shipped_Quantity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Shipped_Quantity</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1809</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Unit_Price</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Unit_Price]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Unit_Price</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>92</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Unit_Cost</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Unit_Cost]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Unit_Cost</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>92</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Revenue</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Revenue]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Revenue</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>19002</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>COGS</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[COGS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>COGS</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>18943</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Shipping_Cost</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Shipping_Cost]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Shipping_Cost</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>31647</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Processing_Days</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Processing_Days]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Processing_Days</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>66</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Transit_Days</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Transit_Days]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Transit_Days</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>36</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Delay_Days</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Delay_Days]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Delay_Days</remote-alias>
+              <ordinal>20</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>55</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Delivery_Status</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Delivery_Status]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Delivery_Status</remote-alias>
+              <ordinal>21</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Fill_Rate_Pct</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Fill_Rate_Pct]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Fill_Rate_Pct</remote-alias>
+              <ordinal>22</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1404</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Customer Region</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Customer Region]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Customer Region</remote-alias>
+              <ordinal>23</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Customer Country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Customer Country]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Customer Country</remote-alias>
+              <ordinal>24</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Customer City</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Customer City]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Customer City</remote-alias>
+              <ordinal>25</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>45</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Customer_Segment</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Customer_Segment]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Customer_Segment</remote-alias>
+              <ordinal>26</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Product_Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Product_Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Product_Name</remote-alias>
+              <ordinal>27</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>76</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Category</remote-alias>
+              <ordinal>28</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sub_Category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Sub_Category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sub_Category</remote-alias>
+              <ordinal>29</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Unit_Cost.1</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Unit_Cost.1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Unit_Cost.1</remote-alias>
+              <ordinal>30</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>92</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Unit_Price.1</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Unit_Price.1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Unit_Price.1</remote-alias>
+              <ordinal>31</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>92</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Primary_Supplier_ID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Primary_Supplier_ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Primary_Supplier_ID</remote-alias>
+              <ordinal>32</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>27</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Supplier_Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Supplier_Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Supplier_Name</remote-alias>
+              <ordinal>33</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>32</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Supplier_Country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Supplier_Country]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Supplier_Country</remote-alias>
+              <ordinal>34</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Supplier_City</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Supplier_City]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Supplier_City</remote-alias>
+              <ordinal>35</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Supplier_Tier</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Supplier_Tier]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Supplier_Tier</remote-alias>
+              <ordinal>36</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Reliability_Score</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Reliability_Score]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Reliability_Score</remote-alias>
+              <ordinal>37</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>31</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Warehouse_City</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Warehouse_City]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Warehouse_City</remote-alias>
+              <ordinal>38</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Warehouse_Country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Warehouse_Country]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Warehouse_Country</remote-alias>
+              <ordinal>39</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Warehouse_Region</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Warehouse_Region]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Warehouse_Region</remote-alias>
+              <ordinal>40</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Capacity_Units</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Capacity_Units]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Capacity_Units</remote-alias>
+              <ordinal>41</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Snapshot_Date</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Snapshot_Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Snapshot_Date</remote-alias>
+              <ordinal>42</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Stock_On_Hand</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Stock_On_Hand]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Stock_On_Hand</remote-alias>
+              <ordinal>43</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12304</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Reorder_Level</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Reorder_Level]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Reorder_Level</remote-alias>
+              <ordinal>44</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>402</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Safety_Stock</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Safety_Stock]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Safety_Stock</remote-alias>
+              <ordinal>45</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>279</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Units_Received</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Units_Received]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Units_Received</remote-alias>
+              <ordinal>46</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2825</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Units_Shipped</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Units_Shipped]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Units_Shipped</remote-alias>
+              <ordinal>47</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2459</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Days_Of_Supply</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Days_Of_Supply]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Days_Of_Supply</remote-alias>
+              <ordinal>48</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>15144</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Stockout_Flag</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Stockout_Flag]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Stockout_Flag</remote-alias>
+              <ordinal>49</ordinal>
+              <family>Fact_Orders</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Fact!Orders_8BA7812D6FCA425EBA260C98C512087A]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Delivery_Status:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Delayed&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Slightly Delayed&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;On-Time&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Fact_Orders' id='Fact!Orders_8BA7812D6FCA425EBA260C98C512087A'>
+            <properties context=''>
+              <relation connection='excel-direct.0zxl7r4180o0cx157qy6r1a68x81' name='Fact_Orders' table='[Fact_Orders$]' type='table'>
+                <columns gridOrigin='A1:AX10001:no:A1:AX10001:0' header='yes' outcome='6'>
+                  <column datatype='string' name='Order_ID' ordinal='0' />
+                  <column datatype='string' name='Customer_ID' ordinal='1' />
+                  <column datatype='string' name='Product_ID' ordinal='2' />
+                  <column datatype='string' name='Supplier_ID' ordinal='3' />
+                  <column datatype='string' name='Warehouse_ID' ordinal='4' />
+                  <column datatype='date' name='Order_Date' ordinal='5' />
+                  <column datatype='date' name='Ship_Date' ordinal='6' />
+                  <column datatype='date' name='Promised_Delivery_Date' ordinal='7' />
+                  <column datatype='date' name='Actual_Delivery_Date' ordinal='8' />
+                  <column datatype='string' name='Ship_Mode' ordinal='9' />
+                  <column datatype='string' name='Carrier' ordinal='10' />
+                  <column datatype='integer' name='Order_Quantity' ordinal='11' />
+                  <column datatype='integer' name='Shipped_Quantity' ordinal='12' />
+                  <column datatype='real' name='Unit_Price' ordinal='13' />
+                  <column datatype='real' name='Unit_Cost' ordinal='14' />
+                  <column datatype='real' name='Revenue' ordinal='15' />
+                  <column datatype='real' name='COGS' ordinal='16' />
+                  <column datatype='real' name='Shipping_Cost' ordinal='17' />
+                  <column datatype='integer' name='Processing_Days' ordinal='18' />
+                  <column datatype='integer' name='Transit_Days' ordinal='19' />
+                  <column datatype='integer' name='Delay_Days' ordinal='20' />
+                  <column datatype='string' name='Delivery_Status' ordinal='21' />
+                  <column datatype='real' name='Fill_Rate_Pct' ordinal='22' />
+                  <column datatype='string' name='Customer Region' ordinal='23' />
+                  <column datatype='string' name='Customer Country' ordinal='24' />
+                  <column datatype='string' name='Customer City' ordinal='25' />
+                  <column datatype='string' name='Customer_Segment' ordinal='26' />
+                  <column datatype='string' name='Product_Name' ordinal='27' />
+                  <column datatype='string' name='Category' ordinal='28' />
+                  <column datatype='string' name='Sub_Category' ordinal='29' />
+                  <column datatype='real' name='Unit_Cost.1' ordinal='30' />
+                  <column datatype='real' name='Unit_Price.1' ordinal='31' />
+                  <column datatype='string' name='Primary_Supplier_ID' ordinal='32' />
+                  <column datatype='string' name='Supplier_Name' ordinal='33' />
+                  <column datatype='string' name='Supplier_Country' ordinal='34' />
+                  <column datatype='string' name='Supplier_City' ordinal='35' />
+                  <column datatype='string' name='Supplier_Tier' ordinal='36' />
+                  <column datatype='real' name='Reliability_Score' ordinal='37' />
+                  <column datatype='string' name='Warehouse_City' ordinal='38' />
+                  <column datatype='string' name='Warehouse_Country' ordinal='39' />
+                  <column datatype='string' name='Warehouse_Region' ordinal='40' />
+                  <column datatype='integer' name='Capacity_Units' ordinal='41' />
+                  <column datatype='integer' name='Snapshot_Date' ordinal='42' />
+                  <column datatype='integer' name='Stock_On_Hand' ordinal='43' />
+                  <column datatype='integer' name='Reorder_Level' ordinal='44' />
+                  <column datatype='integer' name='Safety_Stock' ordinal='45' />
+                  <column datatype='integer' name='Units_Received' ordinal='46' />
+                  <column datatype='integer' name='Units_Shipped' ordinal='47' />
+                  <column datatype='real' name='Days_Of_Supply' ordinal='48' />
+                  <column datatype='integer' name='Stockout_Flag' ordinal='49' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filter1' name='[Action1_1D2ECE80EFDE476F9B570F028FCACCCA]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Delivery Status'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Fact_Orders (DA DATA)' name='federated.0aflbum1iy372514lajhq0u5pqio' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0aflbum1iy372514lajhq0u5pqio'>
+            <column aggregate-role-from='[Customer City]' datatype='string' name='[Customer Region]' role='dimension' type='nominal' />
+            <column caption='Delivery Status' datatype='string' name='[Delivery_Status]' role='dimension' type='nominal' />
+            <column caption='Order ID' datatype='string' name='[Order_ID]' role='dimension' type='nominal' />
+            <column caption='Warehouse Country' datatype='string' name='[Warehouse_Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Order_ID]' derivation='Count' name='[cnt:Order_ID:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Delivery_Status]' derivation='None' name='[none:Delivery_Status:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Customer Region)]'>
+            <groupfilter function='member' level='[Customer Region]' member='&quot;Asia&quot;' user:ui-action-filter='[Action1_1D2ECE80EFDE476F9B570F028FCACCCA]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Warehouse Country)]'>
+            <groupfilter function='member' level='[Warehouse_Country]' member='&quot;Japan&quot;' user:ui-action-filter='[Action1_1D2ECE80EFDE476F9B570F028FCACCCA]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Customer Region)]</column>
+            <column>[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Warehouse Country)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0aflbum1iy372514lajhq0u5pqio].[none:Delivery_Status:nk]' />
+              <wedge-size column='[federated.0aflbum1iy372514lajhq0u5pqio].[cnt:Order_ID:qk]' />
+              <text column='[federated.0aflbum1iy372514lajhq0u5pqio].[cnt:Order_ID:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.7031491994857788' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{2FF80FB6-4649-4808-ACCE-152474A21BF2}' />
+    </worksheet>
+    <worksheet name='Fill Rate %'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#898989' fontsize='14'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Fact_Orders (DA DATA)' name='federated.0aflbum1iy372514lajhq0u5pqio' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0aflbum1iy372514lajhq0u5pqio'>
+            <column aggregate-role-from='[Customer City]' datatype='string' name='[Customer Region]' role='dimension' type='nominal' />
+            <column caption='Fill Rate Pct' datatype='real' default-format='p0.00%' name='[Fill_Rate_Pct]' role='measure' type='quantitative' />
+            <column caption='Warehouse Country' datatype='string' name='[Warehouse_Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Fill_Rate_Pct]' derivation='Sum' name='[sum:Fill_Rate_Pct:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Customer Region)]'>
+            <groupfilter function='member' level='[Customer Region]' member='&quot;Asia&quot;' user:ui-action-filter='[Action1_1D2ECE80EFDE476F9B570F028FCACCCA]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Warehouse Country)]'>
+            <groupfilter function='member' level='[Warehouse_Country]' member='&quot;Japan&quot;' user:ui-action-filter='[Action1_1D2ECE80EFDE476F9B570F028FCACCCA]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Customer Region)]</column>
+            <column>[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Warehouse Country)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0aflbum1iy372514lajhq0u5pqio].[sum:Fill_Rate_Pct:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#4e79a7' fontsize='22'>&lt;</run>
+                <run fontcolor='#4e79a7' fontsize='22'>[federated.0aflbum1iy372514lajhq0u5pqio].[sum:Fill_Rate_Pct:qk]</run>
+                <run fontcolor='#4e79a7' fontsize='22'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{97E7AEFA-8A52-453F-AAD8-4F096B508A94}' />
+    </worksheet>
+    <worksheet name='Gross Margin'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#898989' fontsize='14'>Gross Margin</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Fact_Orders (DA DATA)' name='federated.0aflbum1iy372514lajhq0u5pqio' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0aflbum1iy372514lajhq0u5pqio'>
+            <column caption='Cogs' datatype='real' name='[COGS]' role='measure' type='quantitative' />
+            <column caption='Gross Margin %' datatype='real' default-format='p0.00%' name='[Calculation_0655337272049665]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='(SUM([Revenue]) - SUM([COGS])) / SUM([Revenue])' />
+            </column>
+            <column aggregate-role-from='[Customer City]' datatype='string' name='[Customer Region]' role='dimension' type='nominal' />
+            <column datatype='real' default-format='c&quot;$&quot;#,##0,,.00M;-&quot;$&quot;#,##0,,.00M' name='[Revenue]' role='measure' type='quantitative' />
+            <column caption='Warehouse Country' datatype='string' name='[Warehouse_Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Calculation_0655337272049665]' derivation='User' name='[usr:Calculation_0655337272049665:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Customer Region)]'>
+            <groupfilter function='member' level='[Customer Region]' member='&quot;Asia&quot;' user:ui-action-filter='[Action1_1D2ECE80EFDE476F9B570F028FCACCCA]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Warehouse Country)]'>
+            <groupfilter function='member' level='[Warehouse_Country]' member='&quot;Japan&quot;' user:ui-action-filter='[Action1_1D2ECE80EFDE476F9B570F028FCACCCA]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Customer Region)]</column>
+            <column>[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Warehouse Country)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0aflbum1iy372514lajhq0u5pqio].[usr:Calculation_0655337272049665:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#4e79a7' fontsize='22'>&lt;</run>
+                <run fontcolor='#4e79a7' fontsize='22'>[federated.0aflbum1iy372514lajhq0u5pqio].[usr:Calculation_0655337272049665:qk]</run>
+                <run fontcolor='#4e79a7' fontsize='22'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{4987F0DD-6FF4-4DCA-8E06-EAF26B997CD0}' />
+    </worksheet>
+    <worksheet name='Gross Profit'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#898989' fontsize='14'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Fact_Orders (DA DATA)' name='federated.0aflbum1iy372514lajhq0u5pqio' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0aflbum1iy372514lajhq0u5pqio'>
+            <column caption='Cogs' datatype='real' name='[COGS]' role='measure' type='quantitative' />
+            <column caption='Gross Profit' datatype='real' default-format='c&quot;$&quot;#,##0,,.00M;-&quot;$&quot;#,##0,,.00M' name='[Calculation_0655337271414784]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Revenue]) - SUM([COGS])' />
+            </column>
+            <column aggregate-role-from='[Customer City]' datatype='string' name='[Customer Region]' role='dimension' type='nominal' />
+            <column datatype='real' default-format='c&quot;$&quot;#,##0,,.00M;-&quot;$&quot;#,##0,,.00M' name='[Revenue]' role='measure' type='quantitative' />
+            <column caption='Warehouse Country' datatype='string' name='[Warehouse_Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Calculation_0655337271414784]' derivation='User' name='[usr:Calculation_0655337271414784:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Customer Region)]'>
+            <groupfilter function='member' level='[Customer Region]' member='&quot;Asia&quot;' user:ui-action-filter='[Action1_1D2ECE80EFDE476F9B570F028FCACCCA]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Warehouse Country)]'>
+            <groupfilter function='member' level='[Warehouse_Country]' member='&quot;Japan&quot;' user:ui-action-filter='[Action1_1D2ECE80EFDE476F9B570F028FCACCCA]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Customer Region)]</column>
+            <column>[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Warehouse Country)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-align' value='center' />
+            <format attr='vertical-align' value='center' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-align' scope='cols' value='center' />
+            <format attr='vertical-align' scope='cols' value='center' />
+            <format attr='text-align' scope='rows' value='center' />
+            <format attr='vertical-align' scope='rows' value='center' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.0aflbum1iy372514lajhq0u5pqio].[usr:Calculation_0655337271414784:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#4e79a7' fontsize='22'>&lt;</run>
+                <run fontcolor='#4e79a7' fontsize='22'>[federated.0aflbum1iy372514lajhq0u5pqio].[usr:Calculation_0655337271414784:qk]</run>
+                <run fontcolor='#4e79a7' fontsize='22'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.1534254550933838' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{244E1C5B-CD4F-4ECA-8D4E-9723B0FBF987}' />
+    </worksheet>
+    <worksheet name='Inventory by Warehouse'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Fact_Orders (DA DATA)' name='federated.0aflbum1iy372514lajhq0u5pqio' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0aflbum1iy372514lajhq0u5pqio'>
+            <column aggregate-role-from='[Customer City]' datatype='string' name='[Customer Region]' role='dimension' type='nominal' />
+            <column caption='Stock On Hand' datatype='integer' name='[Stock_On_Hand]' role='measure' type='quantitative' />
+            <column caption='Warehouse Country' datatype='string' name='[Warehouse_Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Warehouse_Country]' derivation='None' name='[none:Warehouse_Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Stock_On_Hand]' derivation='Sum' name='[sum:Stock_On_Hand:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Customer Region)]'>
+            <groupfilter function='member' level='[Customer Region]' member='&quot;Asia&quot;' user:ui-action-filter='[Action1_1D2ECE80EFDE476F9B570F028FCACCCA]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0aflbum1iy372514lajhq0u5pqio].[none:Warehouse_Country:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0aflbum1iy372514lajhq0u5pqio].[sum:Stock_On_Hand:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Customer Region)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0aflbum1iy372514lajhq0u5pqio].[none:Warehouse_Country:nk]</rows>
+        <cols>[federated.0aflbum1iy372514lajhq0u5pqio].[sum:Stock_On_Hand:qk]</cols>
+      </table>
+      <simple-id uuid='{9FBC1759-388B-4FB5-B27A-7C0A1AA28FDD}' />
+    </worksheet>
+    <worksheet name='On-Time Delivery %'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#898989' fontsize='14'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Fact_Orders (DA DATA)' name='federated.0aflbum1iy372514lajhq0u5pqio' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0aflbum1iy372514lajhq0u5pqio'>
+            <column caption='Actual Delivery Date' datatype='date' name='[Actual_Delivery_Date]' role='dimension' type='ordinal' />
+            <column caption='On-Time Flag' datatype='integer' name='[Calculation_0655337328111619]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Actual_Delivery_Date] &lt;= [Promised_Delivery_Date] THEN&#10;    1&#10;ELSE&#10;    0&#10;END' />
+            </column>
+            <column caption='On-Time Delivery %' datatype='real' default-format='p0.00%' name='[Calculation_0655337328463876]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([Calculation_0655337328111619])' />
+            </column>
+            <column aggregate-role-from='[Customer City]' datatype='string' name='[Customer Region]' role='dimension' type='nominal' />
+            <column caption='Promised Delivery Date' datatype='date' name='[Promised_Delivery_Date]' role='dimension' type='ordinal' />
+            <column caption='Warehouse Country' datatype='string' name='[Warehouse_Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Calculation_0655337328463876]' derivation='User' name='[usr:Calculation_0655337328463876:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Customer Region)]'>
+            <groupfilter function='member' level='[Customer Region]' member='&quot;Asia&quot;' user:ui-action-filter='[Action1_1D2ECE80EFDE476F9B570F028FCACCCA]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Warehouse Country)]'>
+            <groupfilter function='member' level='[Warehouse_Country]' member='&quot;Japan&quot;' user:ui-action-filter='[Action1_1D2ECE80EFDE476F9B570F028FCACCCA]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Customer Region)]</column>
+            <column>[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Warehouse Country)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0aflbum1iy372514lajhq0u5pqio].[usr:Calculation_0655337328463876:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#4e79a7' fontsize='22'>&lt;</run>
+                <run fontcolor='#4e79a7' fontsize='22'>[federated.0aflbum1iy372514lajhq0u5pqio].[usr:Calculation_0655337328463876:qk]</run>
+                <run fontcolor='#4e79a7' fontsize='22'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{0B84724D-623C-410A-AAFD-0580433505C7}' />
+    </worksheet>
+    <worksheet name='Orders by Region'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Fact_Orders (DA DATA)' name='federated.0aflbum1iy372514lajhq0u5pqio' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0aflbum1iy372514lajhq0u5pqio'>
+            <column aggregate-role-from='[Customer City]' datatype='string' name='[Customer Region]' role='dimension' type='nominal' />
+            <column caption='Order ID' datatype='string' name='[Order_ID]' role='dimension' type='nominal' />
+            <column caption='Warehouse Country' datatype='string' name='[Warehouse_Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Order_ID]' derivation='Count' name='[cnt:Order_ID:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Customer Region]' derivation='None' name='[none:Customer Region:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Warehouse Country)]'>
+            <groupfilter function='member' level='[Warehouse_Country]' member='&quot;Japan&quot;' user:ui-action-filter='[Action1_1D2ECE80EFDE476F9B570F028FCACCCA]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0aflbum1iy372514lajhq0u5pqio].[none:Customer Region:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0aflbum1iy372514lajhq0u5pqio].[cnt:Order_ID:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Warehouse Country)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0aflbum1iy372514lajhq0u5pqio].[none:Customer Region:nk]</rows>
+        <cols>[federated.0aflbum1iy372514lajhq0u5pqio].[cnt:Order_ID:qk]</cols>
+      </table>
+      <simple-id uuid='{F7FA180D-1AA4-4F3A-B480-02F9F66EEFF6}' />
+    </worksheet>
+    <worksheet name='Revenue Trend'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Fact_Orders (DA DATA)' name='federated.0aflbum1iy372514lajhq0u5pqio' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0aflbum1iy372514lajhq0u5pqio'>
+            <column aggregate-role-from='[Customer City]' datatype='string' name='[Customer Region]' role='dimension' type='nominal' />
+            <column caption='Order Date' datatype='date' name='[Order_Date]' role='dimension' type='ordinal' />
+            <column datatype='real' default-format='c&quot;$&quot;#,##0,,.00M;-&quot;$&quot;#,##0,,.00M' name='[Revenue]' role='measure' type='quantitative' />
+            <column caption='Warehouse Country' datatype='string' name='[Warehouse_Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Order_Date]' derivation='Month' name='[mn:Order_Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Revenue]' derivation='Sum' name='[sum:Revenue:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Customer Region)]'>
+            <groupfilter function='member' level='[Customer Region]' member='&quot;Asia&quot;' user:ui-action-filter='[Action1_1D2ECE80EFDE476F9B570F028FCACCCA]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Warehouse Country)]'>
+            <groupfilter function='member' level='[Warehouse_Country]' member='&quot;Japan&quot;' user:ui-action-filter='[Action1_1D2ECE80EFDE476F9B570F028FCACCCA]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Customer Region)]</column>
+            <column>[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Warehouse Country)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+          </pane>
+        </panes>
+        <rows>[federated.0aflbum1iy372514lajhq0u5pqio].[sum:Revenue:qk]</rows>
+        <cols>[federated.0aflbum1iy372514lajhq0u5pqio].[mn:Order_Date:ok]</cols>
+      </table>
+      <simple-id uuid='{B8FA7F49-F9FC-4459-9DD5-B0A398371461}' />
+    </worksheet>
+    <worksheet name='Revenue by Category'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Fact_Orders (DA DATA)' name='federated.0aflbum1iy372514lajhq0u5pqio' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0aflbum1iy372514lajhq0u5pqio'>
+            <column datatype='string' name='[Category]' role='dimension' type='nominal' />
+            <column aggregate-role-from='[Customer City]' datatype='string' name='[Customer Region]' role='dimension' type='nominal' />
+            <column datatype='real' default-format='c&quot;$&quot;#,##0,,.00M;-&quot;$&quot;#,##0,,.00M' name='[Revenue]' role='measure' type='quantitative' />
+            <column caption='Warehouse Country' datatype='string' name='[Warehouse_Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Revenue]' derivation='Sum' name='[sum:Revenue:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Customer Region)]'>
+            <groupfilter function='member' level='[Customer Region]' member='&quot;Asia&quot;' user:ui-action-filter='[Action1_1D2ECE80EFDE476F9B570F028FCACCCA]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Warehouse Country)]'>
+            <groupfilter function='member' level='[Warehouse_Country]' member='&quot;Japan&quot;' user:ui-action-filter='[Action1_1D2ECE80EFDE476F9B570F028FCACCCA]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0aflbum1iy372514lajhq0u5pqio].[none:Category:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0aflbum1iy372514lajhq0u5pqio].[sum:Revenue:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Customer Region)]</column>
+            <column>[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Warehouse Country)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+        </panes>
+        <rows>[federated.0aflbum1iy372514lajhq0u5pqio].[none:Category:nk]</rows>
+        <cols>[federated.0aflbum1iy372514lajhq0u5pqio].[sum:Revenue:qk]</cols>
+      </table>
+      <simple-id uuid='{425A2B3F-9F2C-4141-8E33-2F566D50A5CA}' />
+    </worksheet>
+    <worksheet name='Revenue by Ship Mode'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Fact_Orders (DA DATA)' name='federated.0aflbum1iy372514lajhq0u5pqio' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0aflbum1iy372514lajhq0u5pqio'>
+            <column aggregate-role-from='[Customer City]' datatype='string' name='[Customer Region]' role='dimension' type='nominal' />
+            <column datatype='real' default-format='c&quot;$&quot;#,##0,,.00M;-&quot;$&quot;#,##0,,.00M' name='[Revenue]' role='measure' type='quantitative' />
+            <column caption='Ship Mode' datatype='string' name='[Ship_Mode]' role='dimension' type='nominal' />
+            <column caption='Warehouse Country' datatype='string' name='[Warehouse_Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Ship_Mode]' derivation='None' name='[none:Ship_Mode:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Revenue]' derivation='Sum' name='[sum:Revenue:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Customer Region)]'>
+            <groupfilter function='member' level='[Customer Region]' member='&quot;Asia&quot;' user:ui-action-filter='[Action1_1D2ECE80EFDE476F9B570F028FCACCCA]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Warehouse Country)]'>
+            <groupfilter function='member' level='[Warehouse_Country]' member='&quot;Japan&quot;' user:ui-action-filter='[Action1_1D2ECE80EFDE476F9B570F028FCACCCA]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0aflbum1iy372514lajhq0u5pqio].[none:Ship_Mode:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0aflbum1iy372514lajhq0u5pqio].[sum:Revenue:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Customer Region)]</column>
+            <column>[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Warehouse Country)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0aflbum1iy372514lajhq0u5pqio].[sum:Revenue:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0aflbum1iy372514lajhq0u5pqio].[none:Ship_Mode:nk]</rows>
+        <cols>[federated.0aflbum1iy372514lajhq0u5pqio].[sum:Revenue:qk]</cols>
+      </table>
+      <simple-id uuid='{0BA45E7B-838E-4F79-AFC1-4A4AFFDABB14}' />
+    </worksheet>
+    <worksheet name='Supplier Performance'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Fact_Orders (DA DATA)' name='federated.0aflbum1iy372514lajhq0u5pqio' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0aflbum1iy372514lajhq0u5pqio'>
+            <column caption='Actual Delivery Date' datatype='date' name='[Actual_Delivery_Date]' role='dimension' type='ordinal' />
+            <column caption='On-Time Flag' datatype='integer' name='[Calculation_0655337328111619]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Actual_Delivery_Date] &lt;= [Promised_Delivery_Date] THEN&#10;    1&#10;ELSE&#10;    0&#10;END' />
+            </column>
+            <column caption='On-Time Delivery %' datatype='real' default-format='p0.00%' name='[Calculation_0655337328463876]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([Calculation_0655337328111619])' />
+            </column>
+            <column aggregate-role-from='[Customer City]' datatype='string' name='[Customer Region]' role='dimension' type='nominal' />
+            <column caption='Promised Delivery Date' datatype='date' name='[Promised_Delivery_Date]' role='dimension' type='ordinal' />
+            <column caption='Supplier Name' datatype='string' name='[Supplier_Name]' role='dimension' type='nominal' />
+            <column caption='Warehouse Country' datatype='string' name='[Warehouse_Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Supplier_Name]' derivation='None' name='[none:Supplier_Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_0655337328463876]' derivation='User' name='[usr:Calculation_0655337328463876:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Customer Region)]'>
+            <groupfilter function='member' level='[Customer Region]' member='&quot;Asia&quot;' user:ui-action-filter='[Action1_1D2ECE80EFDE476F9B570F028FCACCCA]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Warehouse Country)]'>
+            <groupfilter function='member' level='[Warehouse_Country]' member='&quot;Japan&quot;' user:ui-action-filter='[Action1_1D2ECE80EFDE476F9B570F028FCACCCA]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <computed-sort column='[federated.0aflbum1iy372514lajhq0u5pqio].[none:Supplier_Name:nk]' direction='DESC' using='[federated.0aflbum1iy372514lajhq0u5pqio].[usr:Calculation_0655337328463876:qk]' />
+          <slices>
+            <column>[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Customer Region)]</column>
+            <column>[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Warehouse Country)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0aflbum1iy372514lajhq0u5pqio].[none:Supplier_Name:nk]</rows>
+        <cols>[federated.0aflbum1iy372514lajhq0u5pqio].[usr:Calculation_0655337328463876:qk]</cols>
+      </table>
+      <simple-id uuid='{EDAA5ECF-6463-4C3A-BC39-59F1B79FE510}' />
+    </worksheet>
+    <worksheet name='Top 10 Products'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Fact_Orders (DA DATA)' name='federated.0aflbum1iy372514lajhq0u5pqio' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0aflbum1iy372514lajhq0u5pqio'>
+            <column aggregate-role-from='[Customer City]' datatype='string' name='[Customer Region]' role='dimension' type='nominal' />
+            <column caption='Product Name' datatype='string' name='[Product_Name]' role='dimension' type='nominal' />
+            <column datatype='real' default-format='c&quot;$&quot;#,##0,,.00M;-&quot;$&quot;#,##0,,.00M' name='[Revenue]' role='measure' type='quantitative' />
+            <column caption='Warehouse Country' datatype='string' name='[Warehouse_Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Product_Name]' derivation='None' name='[none:Product_Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Revenue]' derivation='Sum' name='[sum:Revenue:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Customer Region)]'>
+            <groupfilter function='member' level='[Customer Region]' member='&quot;Asia&quot;' user:ui-action-filter='[Action1_1D2ECE80EFDE476F9B570F028FCACCCA]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Warehouse Country)]'>
+            <groupfilter function='member' level='[Warehouse_Country]' member='&quot;Japan&quot;' user:ui-action-filter='[Action1_1D2ECE80EFDE476F9B570F028FCACCCA]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0aflbum1iy372514lajhq0u5pqio].[none:Product_Name:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Revenue])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Product_Name:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0aflbum1iy372514lajhq0u5pqio].[none:Product_Name:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0aflbum1iy372514lajhq0u5pqio].[sum:Revenue:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0aflbum1iy372514lajhq0u5pqio].[none:Product_Name:nk]</column>
+            <column>[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Customer Region)]</column>
+            <column>[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Warehouse Country)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0aflbum1iy372514lajhq0u5pqio].[none:Product_Name:nk]</rows>
+        <cols>[federated.0aflbum1iy372514lajhq0u5pqio].[sum:Revenue:qk]</cols>
+      </table>
+      <simple-id uuid='{1EE60559-507E-465C-8C33-005465B29554}' />
+    </worksheet>
+    <worksheet name='Total Orders'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#898989' fontsize='14'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Fact_Orders (DA DATA)' name='federated.0aflbum1iy372514lajhq0u5pqio' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0aflbum1iy372514lajhq0u5pqio'>
+            <column aggregate-role-from='[Customer City]' datatype='string' name='[Customer Region]' role='dimension' type='nominal' />
+            <column caption='Order ID' datatype='string' name='[Order_ID]' role='dimension' type='nominal' />
+            <column caption='Warehouse Country' datatype='string' name='[Warehouse_Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Order_ID]' derivation='Count' name='[cnt:Order_ID:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Customer Region)]'>
+            <groupfilter function='member' level='[Customer Region]' member='&quot;Asia&quot;' user:ui-action-filter='[Action1_1D2ECE80EFDE476F9B570F028FCACCCA]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Warehouse Country)]'>
+            <groupfilter function='member' level='[Warehouse_Country]' member='&quot;Japan&quot;' user:ui-action-filter='[Action1_1D2ECE80EFDE476F9B570F028FCACCCA]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Customer Region)]</column>
+            <column>[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Warehouse Country)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0aflbum1iy372514lajhq0u5pqio].[cnt:Order_ID:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#4e79a7' fontsize='22'>&lt;</run>
+                <run fontcolor='#4e79a7' fontsize='22'>[federated.0aflbum1iy372514lajhq0u5pqio].[cnt:Order_ID:qk]</run>
+                <run fontcolor='#4e79a7' fontsize='22'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{38659648-5B24-44BF-A0DB-D16D66A5D704}' />
+    </worksheet>
+    <worksheet name='Total Revenue'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#898989' fontsize='14'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Fact_Orders (DA DATA)' name='federated.0aflbum1iy372514lajhq0u5pqio' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0aflbum1iy372514lajhq0u5pqio'>
+            <column aggregate-role-from='[Customer City]' datatype='string' name='[Customer Region]' role='dimension' type='nominal' />
+            <column datatype='real' default-format='c&quot;$&quot;#,##0,,.00M;-&quot;$&quot;#,##0,,.00M' name='[Revenue]' role='measure' type='quantitative' />
+            <column caption='Warehouse Country' datatype='string' name='[Warehouse_Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column-instance column='[Revenue]' derivation='Sum' name='[sum:Revenue:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Customer Region)]'>
+            <groupfilter function='member' level='[Customer Region]' member='&quot;Asia&quot;' user:ui-action-filter='[Action1_1D2ECE80EFDE476F9B570F028FCACCCA]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Warehouse Country)]'>
+            <groupfilter function='member' level='[Warehouse_Country]' member='&quot;Japan&quot;' user:ui-action-filter='[Action1_1D2ECE80EFDE476F9B570F028FCACCCA]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Customer Region)]</column>
+            <column>[federated.0aflbum1iy372514lajhq0u5pqio].[Action (Warehouse Country)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-align' value='center' />
+            <format attr='vertical-align' value='center' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-align' value='center' />
+            <format attr='vertical-align' value='center' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0aflbum1iy372514lajhq0u5pqio].[sum:Revenue:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#4e79a7' fontsize='22'>&lt;</run>
+                <run fontcolor='#4e79a7' fontsize='22'>[federated.0aflbum1iy372514lajhq0u5pqio].[sum:Revenue:qk]</run>
+                <run fontcolor='#4e79a7' fontsize='22'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{CC7EE8B1-3E32-491F-B6BC-66DAA1C4F9A2}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='10514' id='3' name='Total Revenue' w='12522' x='176' y='5841' />
+        <zone forceUpdate='true' h='6075' id='4' type-v2='text' w='28906' x='30076' y='0'>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#1b1b1b' fontsize='28'>SUPPLY CHAIN DASHBOARD</run>
+          </formatted-text>
+        </zone>
+        <zone h='10514' id='5' name='Gross Profit' w='12697' x='176' y='16589' />
+        <zone h='9579' id='6' name='Total Orders' w='9128' x='117' y='39953' />
+        <zone h='13318' id='7' name='On-Time Delivery %' w='11469' x='117' y='26752' />
+        <zone h='10397' id='8' name='Fill Rate %' w='15097' x='59' y='50117' />
+        <zone h='12850' id='9' name='Gross Margin' w='15038' x='59' y='60280' />
+        <zone h='33294' id='10' name='Revenue Trend' w='33294' x='15214' y='6308' />
+        <zone h='26869' id='11' name='Revenue by Category' w='33294' x='59' y='73131' />
+        <zone h='33294' id='12' name='Orders by Region' w='32592' x='15448' y='40187' />
+        <zone h='33294' id='13' name='Inventory by Warehouse' w='37683' x='48976' y='6192' />
+        <zone h='33198' id='14' name='Top 10 Products' w='49210' x='50205' y='39069' />
+        <zone h='30607' id='15' name='Supplier Performance' w='32534' x='32885' y='71262' />
+        <zone h='33294' id='16' name='Revenue by Ship Mode' w='33294' x='65594' y='72079' />
+        <zone h='23381' id='17' name='Delivery Status' w='14453' x='86717' y='4453' />
+        <zone h='10020' id='18' name='Delivery Status' pane-specification-id='0' param='[federated.0aflbum1iy372514lajhq0u5pqio].[none:Delivery_Status:nk]' type-v2='color' w='12697' x='86659' y='31073' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='2800' minheight='2800' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='20' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98380' id='19' param='vert' type-v2='layout-flow' w='99064' x='468' y='810'>
+                <zone forceUpdate='true' h='6075' id='4' type-v2='text' w='28906' x='30076' y='0'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#1b1b1b' fontsize='28'>SUPPLY CHAIN DASHBOARD</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='187' h='23381' id='17' is-fixed='true' name='Delivery Status' w='14453' x='86717' y='4453'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='10020' id='18' name='Delivery Status' pane-specification-id='0' param='[federated.0aflbum1iy372514lajhq0u5pqio].[none:Delivery_Status:nk]' type-v2='color' w='12697' x='86659' y='31073'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='84' h='10514' id='3' is-fixed='true' name='Total Revenue' w='12522' x='176' y='5841'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='266' h='33294' id='13' is-fixed='true' name='Inventory by Warehouse' w='37683' x='48976' y='6192'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='267' h='33294' id='10' is-fixed='true' name='Revenue Trend' w='33294' x='15214' y='6308'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='84' h='10514' id='5' is-fixed='true' name='Gross Profit' w='12697' x='176' y='16589'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='107' h='13318' id='7' is-fixed='true' name='On-Time Delivery %' w='11469' x='117' y='26752'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='265' h='33198' id='14' is-fixed='true' name='Top 10 Products' w='49210' x='50205' y='39069'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='76' h='9579' id='6' is-fixed='true' name='Total Orders' w='9128' x='117' y='39953'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='267' h='33294' id='12' is-fixed='true' name='Orders by Region' w='32592' x='15448' y='40187'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='83' h='10397' id='8' is-fixed='true' name='Fill Rate %' w='15097' x='59' y='50117'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='103' h='12850' id='9' is-fixed='true' name='Gross Margin' w='15038' x='59' y='60280'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='245' h='30607' id='15' is-fixed='true' name='Supplier Performance' w='32534' x='32885' y='71262'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='266' h='33294' id='16' is-fixed='true' name='Revenue by Ship Mode' w='33294' x='65594' y='72079'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='215' h='26869' id='11' is-fixed='true' name='Revenue by Category' w='33294' x='59' y='73131'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{FD18C8BC-FCE6-4677-BCA2-1B3C5CBD72A6}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Total Revenue'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E462FF56-438E-4EDB-AF21-E93C0F1B0C86}' />
+    </window>
+    <window class='worksheet' name='Gross Profit'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3076FB3D-8A6A-4762-9882-ABBE4CA8DC59}' />
+    </window>
+    <window class='worksheet' name='Gross Margin'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{51D7DCF4-578C-42A1-B075-604590064A02}' />
+    </window>
+    <window class='worksheet' name='Total Orders'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BA8017B4-14A7-4239-A7BC-7EB79D717BF6}' />
+    </window>
+    <window class='worksheet' name='On-Time Delivery %'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{639432FF-4EF6-4462-893E-26164D5A9B47}' />
+    </window>
+    <window class='worksheet' name='Fill Rate %'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A3285F1E-8A3F-4FE4-98CE-BA7D951EA4DB}' />
+    </window>
+    <window class='worksheet' name='Revenue Trend'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D542125D-C3AD-47A4-91CD-B1835330040C}' />
+    </window>
+    <window class='worksheet' name='Revenue by Category'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{64820184-2CEF-43A8-9642-D0FE67FC2D0A}' />
+    </window>
+    <window class='worksheet' name='Orders by Region'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{87CDEC05-D3F0-42B0-9F66-3A805708DC7E}' />
+    </window>
+    <window class='worksheet' name='Inventory by Warehouse'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{129B9287-9A5B-49F1-A491-9C764C5C5AD1}' />
+    </window>
+    <window class='worksheet' name='Top 10 Products'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7A182FE6-B29D-4318-B6FA-D8E60C4C1C93}' />
+    </window>
+    <window class='worksheet' name='Supplier Performance'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3244B8E4-CC36-4573-A21E-601A3C188E40}' />
+    </window>
+    <window class='worksheet' name='Revenue by Ship Mode'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BD955896-2AC1-42CE-9FB9-23F1B4B98D2B}' />
+    </window>
+    <window class='worksheet' name='Delivery Status'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0aflbum1iy372514lajhq0u5pqio].[none:Delivery_Status:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E54EA917-D388-49E9-AEFC-23CDBFCF4521}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Delivery Status' />
+        <viewpoint name='Fill Rate %'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Gross Margin' />
+        <viewpoint name='Gross Profit' />
+        <viewpoint name='Inventory by Warehouse' />
+        <viewpoint name='On-Time Delivery %' />
+        <viewpoint name='Orders by Region' />
+        <viewpoint name='Revenue Trend'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Revenue by Category' />
+        <viewpoint name='Revenue by Ship Mode'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Supplier Performance' />
+        <viewpoint name='Top 10 Products' />
+        <viewpoint name='Total Orders' />
+        <viewpoint name='Total Revenue'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='16' />
+      <simple-id uuid='{64B52215-CA80-41E7-B759-725FE3E1C1FD}' />
+    </window>
+  </windows>
+</workbook>
